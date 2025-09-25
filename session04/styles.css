@@ -1,0 +1,167 @@
+body {
+    background-color: #b8f19d;
+    background-image: url("images/moss01.avif");
+    background-attachment: fixed;
+    /* background-repeat: repeat-y; */
+    background-size: 400px;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    /* weight: 100 - 900 */
+    font-style: normal;
+
+}
+
+/* only us id once per page, use a hashtag */
+#wrapper {
+    width: 60%;
+    background-color: #E3EB57;
+    margin: 40px auto;
+    padding: 20px 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px #8ada5fc3;
+    border: 2px solid #5ca14cbc;
+}
+
+#pinkmushroom {
+    width: 60%;
+    background-color: #EFC4E3;
+    margin: 40px auto;
+    padding: 20px 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px #EFC4E399;
+    border: 2px solid #D49EC2;
+
+}
+
+#brownmushroom {
+    width: 60%;
+    background-color: #DCB76E;
+    margin: 40px auto;
+    padding: 20px 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px #ab8a06c9;
+    border: 2px solid #d2ac16;
+
+}
+
+#bluemushroom {
+    width: 60%;
+    background-color: #ADD7FC;
+    margin: 40px auto;
+    padding: 20px 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px #169ac699;
+    border: 2px solid #2d89f9;
+
+}
+
+
+nav {
+    background-color: #edd3e3;
+    padding: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+/* descendant selector */
+nav a {
+    margin: 20px;
+    color: #8B5CA5;
+    text-decoration: none;
+
+}
+
+
+nav a:hover {
+    color: #47A250;
+}
+
+header h1 {
+    font-family: "Irish Grover", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+}
+
+header h2,
+main h2,
+h3,
+footer h2,
+ul {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+main th,
+td {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*use them as many time as you like, use period*/
+span.wow {
+    color: #FFA35C;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+span.but {
+    color: #f00;
+    font-weight: 1200;
+    text-transform: uppercase;
+
+}
+
+main p,
+main ul {
+    font-family: "The Girl Next Door", cursive;
+    font-weight: 1200;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 23px
+}
+
+main blockquote {
+    font-family: "The Girl Next Door", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#brownmushroom img,
+#bluemushroom img {
+    max-width: 80%;
+}
+
+main table,
+img {
+    text-align: center;
+    background-color: #d2a6db;
+    background-image: url("images/mushroomcolors.png");
+    background-size: 400px;
+    width: 100%;
+}
+
+main table th {
+    background-color: #ED80A2;
+}
+
+main table td,
+main table th {
+    padding: 10px;
+    border: 1px solid #f1cee4;
+}
