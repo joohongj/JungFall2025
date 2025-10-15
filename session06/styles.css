@@ -1,0 +1,117 @@
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* END border-box fix */
+
+body {
+    background-color: #faefd4;
+}
+
+div.container {
+    width: 80%;
+    background-color: rgb(212, 135, 84);
+    /* center the div container */
+    margin: 40px auto;
+}
+
+
+
+header,
+nav,
+main,
+aside,
+footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #ba694c;
+}
+
+nav {
+    background-color: rgb(212, 135, 84);
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    background-color: #983815;
+    width: 200px;
+    height: 50px;
+    padding: 12px 20px;
+    text-align: center;
+    margin: 4px 10px;
+    border-radius: 120px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #e5981d;
+}
+
+
+main {
+    background-color: #efc794;
+    width: 70%;
+    float: left;
+}
+
+aside {
+    background-color: rgb(212, 135, 84);
+    width: 30%;
+    float: left;
+
+}
+
+footer {
+    background-color: #ece279;
+    float: none;
+    clear: both;
+}
+
+
+/* history */
+
+.leftmenu {
+
+    width: 250px;
+    /* center the div container */
+    margin: 40px auto;
+
+}
+
+div.mushroomimg {
+    display: inline-block;
+    border: solid 10px #ffb245;
+    width: 600px;
+
+
+}
+
+img {
+width: 100%;
+text-align: center;
+margin: auto;
+float: left;
+
+
+
+}
