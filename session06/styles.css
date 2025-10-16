@@ -37,7 +37,9 @@ header {
 }
 
 nav {
+    width: 30%;
     background-color: rgb(212, 135, 84);
+    float: left;
 }
 
 nav ul {
@@ -70,13 +72,13 @@ nav a:hover {
 
 main {
     background-color: #efc794;
-    width: 70%;
+    width: 60%;
     float: left;
 }
 
 aside {
     background-color: rgb(212, 135, 84);
-    width: 30%;
+    width: 10%;
     float: left;
 
 }
@@ -101,7 +103,7 @@ footer {
 div.mushroomimg {
     display: inline-block;
     border: solid 10px #ffb245;
-    width: 600px;
+    width: 100%;
 
 
 }
@@ -110,8 +112,22 @@ img {
 width: 100%;
 text-align: center;
 margin: auto;
-float: left;
+float: right;
 
 
+
+}
+
+
+
+span {
+    display: inline-block;
+    border: solid 5px rgb(227, 94, 46);
+ text-align: center;
+    margin: auto;
+       padding: 15px 0 30px 0;
+    background-color: #ffb245;
+    height: 50px;
+    width: 500px;
 
 }
