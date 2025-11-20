@@ -1,0 +1,136 @@
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4 1fr);
+	grid-template-rows: repeat (2, 250px);
+}
+
+.banner {
+	width: 40%;
+	height: 15%;
+		border-radius: 0.8rem;
+	background: #caa930;
+	position: absolute;
+	top: 5%;
+	left: 30%;
+}
+
+
+/* second line on left */
+#left-container {
+	left: 8%;
+}
+
+#left-containerOne {
+	left: 0px;
+}
+
+/* second line on right */
+#right-container {
+	right: 8%;
+}
+
+
+#right-containerOne {
+	right: 0px;
+}
+
+/* alphabet left side */
+
+.container {
+	background-color: #eee;
+	grid-column: 1 / 2;
+	width: 8%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.containerOne {
+	background-color: #eee;
+	grid-column: 2 / 3;
+	width: 8%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+/* alphabet right side */
+
+.containerSecond {
+	background-color: #eee;
+	grid-column: 12 / 13;
+	width: 8%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.containerTwo {
+	background-color: #eee;
+	grid-column: 11 / 12;
+	width: 8%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.plant-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.plant {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+.blackboard {
+	height: 75%;
+	width: 58%;
+	background: #12523e;
+	border: 20px solid #af6e39;
+	border-radius: 1rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	z-index: 1;
+}
+
+.sponge-top {
+	width: 20%;
+	height: 9%;
+	border-radius: 0.5rem;
+	background: #292413;
+	position: absolute;
+	bottom: 2%;
+	left: 22%;
+}
+
+.sponge {
+	width: 18%;
+	height: 2%;
+		border-radius: 0.1rem;
+	background: #caa930;
+	position: absolute;
+	bottom: 0%;
+	left: 23%;
+}
+
+.chalk {
+	width: 10%;
+	height: 2%;
+	border-radius: 0.1rem;
+	background: #ddfbff;
+	position: absolute;
+	bottom: 0%;
+	left: 5%;
+}
